@@ -308,8 +308,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a19bd205b42e131c680a555636ad1c155" id="r_a19bd205b42e131c680a555636ad1c155"><td class="memTemplParams" colspan="2">template&lt;typename Fun &gt; </td></tr>
 <tr class="memitem:a19bd205b42e131c680a555636ad1c155"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classSecurity_1_1IoResult.html">IoResult</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceSecurity.html#a19bd205b42e131c680a555636ad1c155">Handshake</a> (<a class="el" href="classComm_1_1Connection.html">Comm::Connection</a> &amp;, <a class="el" href="namespaceSecurity.html#a5e9bec92651d3a02ed9b6af7e962c663">ErrorCode</a>, Fun)</td></tr>
 <tr class="separator:a19bd205b42e131c680a555636ad1c155"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9e45e015cb0c1b79e170319b469bba8" id="r_ad9e45e015cb0c1b79e170319b469bba8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSecurity.html#ad9e45e015cb0c1b79e170319b469bba8">PrepForIo</a> ()</td></tr>
-<tr class="separator:ad9e45e015cb0c1b79e170319b469bba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada4b29331154ed5f015a9c9e325b3c82" id="r_ada4b29331154ed5f015a9c9e325b3c82"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSecurity.html#ada4b29331154ed5f015a9c9e325b3c82">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classSecurity_1_1IoResult.html">IoResult</a> &amp;result)</td></tr>
 <tr class="separator:ada4b29331154ed5f015a9c9e325b3c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5184cf80d640561cc955883a77ccbf88" id="r_a5184cf80d640561cc955883a77ccbf88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSecurity_1_1IoResult.html">IoResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSecurity.html#a5184cf80d640561cc955883a77ccbf88">Accept</a> (<a class="el" href="classComm_1_1Connection.html">Comm::Connection</a> &amp;transport)</td></tr>
@@ -321,6 +319,8 @@ Functions</h2></td></tr>
 <tr class="memitem:af8dc44a62ed53aa92e9e2f6549990b8d" id="r_af8dc44a62ed53aa92e9e2f6549990b8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSecurity.html#af8dc44a62ed53aa92e9e2f6549990b8d">ForgetErrors</a> ()</td></tr>
 <tr class="memdesc:af8dc44a62ed53aa92e9e2f6549990b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear any errors that a TLS library has accumulated in its global storage  <br /></td></tr>
 <tr class="separator:af8dc44a62ed53aa92e9e2f6549990b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee63e107780327d5f5152227e13a46d" id="r_a1ee63e107780327d5f5152227e13a46d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSecurity.html#a1ee63e107780327d5f5152227e13a46d">PrepForIo</a> ()</td></tr>
+<tr class="separator:a1ee63e107780327d5f5152227e13a46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f010cbd129e326e9f5aa911d4fae330" id="r_a9f010cbd129e326e9f5aa911d4fae330"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSecurity.html#a9f010cbd129e326e9f5aa911d4fae330">nilFunction</a> (const void *)</td></tr>
 <tr class="separator:a9f010cbd129e326e9f5aa911d4fae330"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af26b941f6181d8d30ca0ceebf6dbd4e3" id="r_af26b941f6181d8d30ca0ceebf6dbd4e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSecurity_1_1PeerOptions.html">PeerOptions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSecurity.html#af26b941f6181d8d30ca0ceebf6dbd4e3">ProxyOutgoingConfig</a> ()</td></tr>
@@ -466,7 +466,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Io_8cc_source.html#l00023">23</a> of file <a class="el" href="Io_8cc_source.html">Io.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Io_8cc_source.html#l00022">22</a> of file <a class="el" href="Io_8cc_source.html">Io.cc</a>.</p>
 
 </div>
 </div>
@@ -791,7 +791,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Io_8cc_source.html#l00211">211</a> of file <a class="el" href="Io_8cc_source.html">Io.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Io_8cc_source.html#l00208">208</a> of file <a class="el" href="Io_8cc_source.html">Io.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="security_2forward_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aac7797803e0715bd79d0fbad569201a44">SQUID_TLS_ERR_ACCEPT</a>.</p>
 
@@ -838,7 +838,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Io_8cc_source.html#l00226">226</a> of file <a class="el" href="Io_8cc_source.html">Io.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Io_8cc_source.html#l00223">223</a> of file <a class="el" href="Io_8cc_source.html">Io.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="security_2forward_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aa93e80eba81588f419813562037535eaf">SQUID_TLS_ERR_CONNECT</a>.</p>
 
@@ -879,7 +879,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Creates TLS <a class="el" href="classClient.html">Client</a> connection structure (aka 'session' state) and initializes TLS/SSL I/O (<a class="el" href="namespaceComm.html" title="Abstraction layer for TCP, UDP, TLS, UDS and filedescriptor sockets.">Comm</a> and BIO). On errors, emits DBG_IMPORTANT with details and returns false. </p>
 
-<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00183">183</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00216">216</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="namespaceSecurity_1_1Io.html#a87163bef127542d8faefe3fc1ddbbc72ac537b96a4da17ef524a7be0e56f31206">Security::Io::BIO_TO_SERVER</a>, <a class="el" href="security_2Session_8cc.html#a008efb0ac852c264d011b37971b2a0ef">CreateSession()</a>, <a class="el" href="classSecurity_1_1FuturePeerContext.html#afa9544cdbf752d29d9750cc06ffdd787">Security::FuturePeerContext::options</a>, and <a class="el" href="classSecurity_1_1FuturePeerContext.html#a9581a3a4d87968d440f7a7fa2af02622">Security::FuturePeerContext::raw</a>.</p>
 
@@ -926,7 +926,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Creates TLS <a class="el" href="classServer.html">Server</a> connection structure (aka 'session' state) and initializes TLS/SSL I/O (<a class="el" href="namespaceComm.html" title="Abstraction layer for TCP, UDP, TLS, UDS and filedescriptor sockets.">Comm</a> and BIO). On errors, emits DBG_IMPORTANT with details and returns false. </p>
 
-<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00194">194</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00227">227</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="namespaceSecurity_1_1Io.html#a87163bef127542d8faefe3fc1ddbbc72a4dcc1f2ad76fe74b9a4ef3efff1f3739">Security::Io::BIO_TO_CLIENT</a>, and <a class="el" href="security_2Session_8cc.html#a008efb0ac852c264d011b37971b2a0ef">CreateSession()</a>.</p>
 
@@ -1138,7 +1138,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="security_2forward_8h_source.html#l00152">152</a> of file <a class="el" href="security_2forward_8h_source.html">forward.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="group__ServerProtocolSSLAPI.html#ga653ff1e83e0cfb2c8483d2e84b980474">Ssl::chainCertificatesToSSLContext()</a>, <a class="el" href="classSecurity_1_1PeerOptions.html#adcdad28f227d162e7b51fe91899506ac">Security::PeerOptions::createBlankContext()</a>, <a class="el" href="classSecurity_1_1ServerOptions.html#a10f3d24b85367ae9b80e45df1dfc2ab5">Security::ServerOptions::createBlankContext()</a>, <a class="el" href="security_2Session_8cc.html#a008efb0ac852c264d011b37971b2a0ef">CreateSession()</a>, <a class="el" href="classSecurity_1_1ServerOptions.html#a57fbbc71d7acaf0f9c0449736327a0e5">Security::ServerOptions::createStaticServerContext()</a>, <a class="el" href="support_8cc.html#a739032a33c03556001775d7add63918c">findIssuerInCaDb()</a>, <a class="el" href="namespaceSsl.html#a1ae63541dcd611d7bb4ececce415dc23">Ssl::InitClientContext()</a>, <a class="el" href="namespaceSsl.html#a69fe0ef107b452accefe3341af7d618b">Ssl::Initialize()</a>, <a class="el" href="namespaceSecurity.html#a22a6ec2bd7340b66fe60a5e0cb9b179e">IssuerName()</a>, <a class="el" href="classSecurity_1_1KeyData.html#a7ffdbb25c858e41fe79f987cdc234fa2">Security::KeyData::loadCertificates()</a>, <a class="el" href="PeerOptions_8cc.html#a1bb437973204bffa6219944831c95572">loadSystemTrustedCa()</a>, <a class="el" href="namespaceSecurity.html#af00b596db442a0f2fe875df7a46415a2">MaybeGetSessionResumeData()</a>, <a class="el" href="classSecurity_1_1PeerOptions.html#ad7b17f5de855ae7cf528e68d473a24c2">Security::PeerOptions::parseOptions()</a>, <a class="el" href="classSecurity_1_1ErrorDetail.html#a8bb7b465171eceeb99012fad34058a72">Security::ErrorDetail::printErrorLibError()</a>, <a class="el" href="group__ServerProtocolSSLAPI.html#gad23b2f94c440b0b8a419498e9372ebd0">Ssl::setClientSNI()</a>, <a class="el" href="namespaceSecurity.html#a65be2957bca83f1bf0ca5bc5b0474d42">SetSessionResumeData()</a>, <a class="el" href="namespaceSecurity.html#ab4dfe29d04dc3880668fd3b41a5595aa">SubjectName()</a>, <a class="el" href="classSecurity_1_1PeerOptions.html#a8d4d48e34856c5230fa0b293434d7c57">Security::PeerOptions::updateContextCa()</a>, <a class="el" href="classSecurity_1_1ServerOptions.html#aef1c78a8cb5fbc3bb7e2f787156476bb">Security::ServerOptions::updateContextClientCa()</a>, <a class="el" href="classSecurity_1_1ServerOptions.html#ab93be9d1fdb074550bd2d72adca2f7c4">Security::ServerOptions::updateContextConfig()</a>, <a class="el" href="classSecurity_1_1ServerOptions.html#a33c116027745eefc7c9ea9d95fb74b19">Security::ServerOptions::updateContextEecdh()</a>, <a class="el" href="classSecurity_1_1PeerOptions.html#ac7cb05bbebf8eb107a66c1110b2c0ba8">Security::PeerOptions::updateContextTrust()</a>, and <a class="el" href="classSecurity_1_1PeerOptions.html#ae608677dd3072f830daa507d145311b4">Security::PeerOptions::updateSessionOptions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="group__ServerProtocolSSLAPI.html#ga653ff1e83e0cfb2c8483d2e84b980474">Ssl::chainCertificatesToSSLContext()</a>, <a class="el" href="classSecurity_1_1PeerOptions.html#adcdad28f227d162e7b51fe91899506ac">Security::PeerOptions::createBlankContext()</a>, <a class="el" href="classSecurity_1_1ServerOptions.html#a10f3d24b85367ae9b80e45df1dfc2ab5">Security::ServerOptions::createBlankContext()</a>, <a class="el" href="security_2Session_8cc.html#a008efb0ac852c264d011b37971b2a0ef">CreateSession()</a>, <a class="el" href="classSecurity_1_1ServerOptions.html#a57fbbc71d7acaf0f9c0449736327a0e5">Security::ServerOptions::createStaticServerContext()</a>, <a class="el" href="support_8cc.html#a739032a33c03556001775d7add63918c">findIssuerInCaDb()</a>, <a class="el" href="namespaceSsl.html#a1ae63541dcd611d7bb4ececce415dc23">Ssl::InitClientContext()</a>, <a class="el" href="namespaceSsl.html#a69fe0ef107b452accefe3341af7d618b">Ssl::Initialize()</a>, <a class="el" href="namespaceSecurity.html#a22a6ec2bd7340b66fe60a5e0cb9b179e">IssuerName()</a>, <a class="el" href="classSecurity_1_1KeyData.html#a7ffdbb25c858e41fe79f987cdc234fa2">Security::KeyData::loadCertificates()</a>, <a class="el" href="PeerOptions_8cc.html#a1bb437973204bffa6219944831c95572">loadSystemTrustedCa()</a>, <a class="el" href="namespaceSecurity.html#af00b596db442a0f2fe875df7a46415a2">MaybeGetSessionResumeData()</a>, <a class="el" href="classSecurity_1_1PeerOptions.html#ad7b17f5de855ae7cf528e68d473a24c2">Security::PeerOptions::parseOptions()</a>, <a class="el" href="classSecurity_1_1ErrorDetail.html#a8bb7b465171eceeb99012fad34058a72">Security::ErrorDetail::printErrorLibError()</a>, <a class="el" href="group__ServerProtocolSSLAPI.html#gad23b2f94c440b0b8a419498e9372ebd0">Ssl::setClientSNI()</a>, <a class="el" href="namespaceSecurity.html#a65be2957bca83f1bf0ca5bc5b0474d42">SetSessionResumeData()</a>, <a class="el" href="namespaceSecurity.html#ab4dfe29d04dc3880668fd3b41a5595aa">SubjectName()</a>, <a class="el" href="security_2Session_8cc.html#a1c6f265649c667ade71e3c8a3810aeb8">tls_read_method()</a>, <a class="el" href="security_2Session_8cc.html#aaa2d7e248411e51076175561c51ed2f6">tls_write_method()</a>, <a class="el" href="classSecurity_1_1PeerOptions.html#a8d4d48e34856c5230fa0b293434d7c57">Security::PeerOptions::updateContextCa()</a>, <a class="el" href="classSecurity_1_1ServerOptions.html#aef1c78a8cb5fbc3bb7e2f787156476bb">Security::ServerOptions::updateContextClientCa()</a>, <a class="el" href="classSecurity_1_1ServerOptions.html#ab93be9d1fdb074550bd2d72adca2f7c4">Security::ServerOptions::updateContextConfig()</a>, <a class="el" href="classSecurity_1_1ServerOptions.html#a33c116027745eefc7c9ea9d95fb74b19">Security::ServerOptions::updateContextEecdh()</a>, <a class="el" href="classSecurity_1_1PeerOptions.html#ac7cb05bbebf8eb107a66c1110b2c0ba8">Security::PeerOptions::updateContextTrust()</a>, and <a class="el" href="classSecurity_1_1PeerOptions.html#ae608677dd3072f830daa507d145311b4">Security::PeerOptions::updateSessionOptions()</a>.</p>
 
 </div>
 </div>
@@ -1157,11 +1157,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Io_8cc_source.html#l00071">71</a> of file <a class="el" href="Io_8cc_source.html">Io.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Io_8cc_source.html#l00070">70</a> of file <a class="el" href="Io_8cc_source.html">Io.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="namespaceSsl.html#ae2302a698c78790c267f0c62f25a35a5">Ssl::ForgetErrors()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classSecurity_1_1ErrorDetail.html#a62c3d14c4615a852d07e9416cf67c30b">Security::ErrorDetail::ErrorDetail()</a>, and <a class="el" href="namespaceSecurity.html#ad9e45e015cb0c1b79e170319b469bba8">PrepForIo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSecurity_1_1ErrorDetail.html#a62c3d14c4615a852d07e9416cf67c30b">Security::ErrorDetail::ErrorDetail()</a>, <a class="el" href="namespaceSecurity.html#a1ee63e107780327d5f5152227e13a46d">PrepForIo()</a>, <a class="el" href="security_2Session_8cc.html#a1c6f265649c667ade71e3c8a3810aeb8">tls_read_method()</a>, and <a class="el" href="security_2Session_8cc.html#aaa2d7e248411e51076175561c51ed2f6">tls_write_method()</a>.</p>
 
 </div>
 </div>
@@ -1326,7 +1326,7 @@ template&lt;typename Fun &gt; </div>
 <p>When the session is not a resumed session, retrieve the details needed to resume a later connection and store them in 'data'. This may result in 'data' becoming a nil Pointer if no details exist or an error occurs.</p>
 <p>When the session is already a resumed session, do nothing and leave 'data' unhanged. XXX: is this latter behaviour always correct? </p>
 
-<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00226">226</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00259">259</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="debug_2Stream_8h.html#ad8cd33a7d75c0efd4d3fd369dc6a8f13">debugs</a>, <a class="el" href="namespaceSecurity.html#ae026d69c714c41065a22f2d0351a9c32">ErrorString()</a>, and <a class="el" href="namespaceSecurity.html#a79f403b4ae232250d95e98f8184070b3">SessionIsResumed()</a>.</p>
 
@@ -1351,7 +1351,7 @@ template&lt;typename Fun &gt; </div>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000020">Deprecated:</a></b></dt><dd>use the PeerOptions/ServerOptions API methods instead. Wraps SessionPointer value creation to reduce risk of a nasty hack in <a class="el" href="support_8cc.html">ssl/support.cc</a>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00090">90</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00123">123</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="debug_2Stream_8h.html#ad8cd33a7d75c0efd4d3fd369dc6a8f13">debugs</a>.</p>
 
@@ -1728,33 +1728,27 @@ template&lt;typename Fun &gt; </div>
 
 </div>
 </div>
-<a id="ad9e45e015cb0c1b79e170319b469bba8" name="ad9e45e015cb0c1b79e170319b469bba8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9e45e015cb0c1b79e170319b469bba8">&#9670;&#160;</a></span>PrepForIo()</h2>
+<a id="a1ee63e107780327d5f5152227e13a46d" name="a1ee63e107780327d5f5152227e13a46d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ee63e107780327d5f5152227e13a46d">&#9670;&#160;</a></span>PrepForIo()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void Security::PrepForIo </td>
+          <td class="memname">void Security::PrepForIo </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>the steps necessary to perform before the upcoming TLS I/O to correctly interpret/detail the outcome of that I/O </p>
+<p>perform the steps that are necessary to perform before the upcoming TLS I/O to correctly interpret/detail the outcome of that I/O; implies <a class="el" href="namespaceSecurity.html#af8dc44a62ed53aa92e9e2f6549990b8d" title="clear any errors that a TLS library has accumulated in its global storage">ForgetErrors()</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="Io_8cc_source.html#l00081">81</a> of file <a class="el" href="Io_8cc_source.html">Io.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Io_8cc_source.html#l00078">78</a> of file <a class="el" href="Io_8cc_source.html">Io.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="namespaceSecurity.html#af8dc44a62ed53aa92e9e2f6549990b8d">ForgetErrors()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="security_2Session_8cc.html#a1c6f265649c667ade71e3c8a3810aeb8">tls_read_method()</a>, and <a class="el" href="security_2Session_8cc.html#aaa2d7e248411e51076175561c51ed2f6">tls_write_method()</a>.</p>
 
 </div>
 </div>
@@ -1850,7 +1844,7 @@ template&lt;typename Fun &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00213">213</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00246">246</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="debug_2Stream_8h.html#ad8cd33a7d75c0efd4d3fd369dc6a8f13">debugs</a>.</p>
 
@@ -1874,7 +1868,7 @@ template&lt;typename Fun &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00200">200</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00233">233</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="debug_2Stream_8h.html#ad8cd33a7d75c0efd4d3fd369dc6a8f13">debugs</a>.</p>
 
@@ -1898,7 +1892,7 @@ template&lt;typename Fun &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00376">376</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00409">409</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="security_2Session_8cc.html#a79d6b98d2a1148b13e97998c10fbc6f0">get_session_cb()</a>, <a class="el" href="security_2Session_8cc.html#a6ede03bc59309d1b2c79223362607764">remove_session_cb()</a>, <a class="el" href="security_2Session_8cc.html#a9224c59afe13074a528b90faa1509009">SessionCache</a>, and <a class="el" href="security_2Session_8cc.html#a9ef3a3db4308b608b141231baa78d9f8">store_session_cb()</a>.</p>
 
@@ -1933,7 +1927,7 @@ template&lt;typename Fun &gt; </div>
 </div><div class="memdoc">
 <p>Set the data for resuming a previous session. Needs to be done before using the SessionPointer for a handshake. </p>
 
-<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00247">247</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="security_2Session_8cc_source.html#l00280">280</a> of file <a class="el" href="security_2Session_8cc_source.html">Session.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="debug_2Stream_8h.html#af0ecf487aee4d8ff164c0f40e71c5150">DBG_CRITICAL</a>, <a class="el" href="debug_2Stream_8h.html#ad8cd33a7d75c0efd4d3fd369dc6a8f13">debugs</a>, and <a class="el" href="namespaceSecurity.html#ae026d69c714c41065a22f2d0351a9c32">ErrorString()</a>.</p>
 

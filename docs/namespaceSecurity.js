@@ -92,7 +92,7 @@ var namespaceSecurity =
     [ "ParseOptionalProtocolVersion", "namespaceSecurity.html#af1ae83aa59c25e09bbf2034ec97642fc", null ],
     [ "ParseProtocolVersion", "namespaceSecurity.html#a2354f52e944ee44a4c8cb91b353f1a92", null ],
     [ "ParseProtocolVersionBase", "namespaceSecurity.html#adc4eb96e950e812b7dadd5541c718e6f", null ],
-    [ "PrepForIo", "namespaceSecurity.html#ad9e45e015cb0c1b79e170319b469bba8", null ],
+    [ "PrepForIo", "namespaceSecurity.html#a1ee63e107780327d5f5152227e13a46d", null ],
     [ "ProxyOutgoingConfig", "namespaceSecurity.html#af26b941f6181d8d30ca0ceebf6dbd4e3", null ],
     [ "RotateLogs", "namespaceSecurity.html#ae418e3e11af1d2a3e31c8a1f0273a18b", null ],
     [ "SelfSigned", "namespaceSecurity.html#aa818abd00085e452866dea0800377376", null ],
